@@ -5,7 +5,7 @@ import BarChartGrouped from './bar-chart-grouped'
 const BarChartGate = (props) => {
     const { data } = props
 
-    if (data[0] && 'data' in data[0]) {
+    if (data[0] && data[0]?.data != null) {
         return <BarChartGrouped {...props} />
     }
 
