@@ -13,7 +13,8 @@
         "test": "jest",
         "lint": "eslint .",
         "storybook": "storybook start -p 7008",
-        "prepare": "bob build"
+        "prepare": "bob build",
+				"prep": "husky install .husky"
     },
     "husky": {
         "hooks": {
