@@ -5,7 +5,7 @@ import StackedBarChartGrouped from './stacked-bar-grouped'
 const StackedBarChartGate = (props) => {
     const { data } = props
 
-    if (data[0] && data[0].hasOwnProperty('data')) {
+    if (data[0] && 'data' in data[0]) {
         return <StackedBarChartGrouped {...props} />
     }
 

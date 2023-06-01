@@ -5,7 +5,7 @@ import LineChartGrouped from './line-chart-grouped'
 const LineChartGate = (props) => {
     const { data } = props
 
-    if (data[0] && data[0].hasOwnProperty('data')) {
+    if (data[0] && 'data' in data[0]) {
         return <LineChartGrouped {...props} />
     }
 
