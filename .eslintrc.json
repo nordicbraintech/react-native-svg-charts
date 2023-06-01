@@ -1,7 +1,7 @@
 {
     "extends": ["eslint:recommended", "plugin:react/recommended"],
     "plugins": ["react", "react-native"],
-    "parser": "babel-eslint",
+    "parser": "@babel/eslint-parser",
     "parserOptions": {
         "ecmaVersion": 6,
         "sourceType": "module",
