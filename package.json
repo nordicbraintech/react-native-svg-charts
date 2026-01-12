@@ -1,7 +1,6 @@
 {
     "name": "react-native-svg-charts",
     "version": "5.4.0",
-    "private": false,
     "description": "Customizable charts (Line, Bar, Area, Pie, Circle, Progress) for React Native",
     "main": "lib/module/index.js",
     "module": "lib/module/index.js",
@@ -14,7 +13,7 @@
         "lint": "eslint .",
         "storybook": "storybook start -p 7008",
         "prep:bob": "bob build",
-				"prep": "husky install .husky"
+        "prep": "husky install .husky"
     },
     "husky": {
         "hooks": {
